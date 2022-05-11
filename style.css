@@ -1,0 +1,71 @@
+
+body {
+  background-image: url(images/rothko1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: rgb(58, 50, 50);
+  font-family: Courier, monospace;
+  font-size: 32px;
+  line-height: 1.6;
+  text-align: center;
+}
+
+h1 {
+  font-family: Courier, monospace;
+  font-size: 32px;
+  line-height: 1.6;
+}
+
+h2 {
+  font-family: Courier, monospace;
+  font-size: 24px;
+  line-height: 1.6;
+}
+
+a {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(185, 175, 175);
+}
+
+a:hover {
+  color: white;
+}
+
+.card-grey {
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  margin: 32px auto;
+  padding: 50px;
+}
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.img-circle {
+  width: 160px;
+  height: 160px;
+  border-radius: 80px;
+}
+
+.btn-black {
+  background-color: rgba(58, 50, 50, 0.8);
+  padding: 8px 24px;
+  border-radius: 8px;
+  border: 25px 50px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding: 0px;
+}
