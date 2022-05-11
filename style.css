@@ -9,7 +9,7 @@ body {
   line-height: 1.6;
   text-align: center;
 }
-/* hi */
+
 h1 {
   font-family: Courier, monospace;
   font-size: 32px;
@@ -68,4 +68,36 @@ a:hover {
 .list-inline {
   list-style: none;
   padding: 0px;
+}
+
+.btn-white {
+  background-color: white;
+  border-radius: 4px;
+  border: 25px 50px;
+  padding: 8px;
+  margin: 32px auto;
+}
+
+.btn-white:hover {
+  opacity: 0.9;
+}
+
+.social-icon {
+  font-size: 48px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
 }
